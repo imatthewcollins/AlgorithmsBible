@@ -69,7 +69,16 @@
 		3E46B6CB2B0E6BB90073E8EA /* AlgorithmsBible */ = {
 			isa = PBXGroup;
 			children = (
+				3E9009F52B1BA20B0040F671 /* Answers */,
+				3E9009F42B1BA1F10040F671 /* Help */,
 				3E46B6CC2B0E6BB90073E8EA /* main.swift */,
+			);
+			path = AlgorithmsBible;
+			sourceTree = "<group>";
+		};
+		3E9009F42B1BA1F10040F671 /* Help */ = {
+			isa = PBXGroup;
+			children = (
 				3E46B6D72B0FFE880073E8EA /* LinearSearch.swift */,
 				3E46B6D92B0FFEF80073E8EA /* BinarySearch.swift */,
 				3E46B6DB2B1002CF0073E8EA /* BubbleSort.swift */,
@@ -77,7 +86,14 @@
 				3E46B6D32B0E6BCC0073E8EA /* QuickSort.swift */,
 				3E46B6DF2B10044B0073E8EA /* MergeSort.swift */,
 			);
-			path = AlgorithmsBible;
+			path = Help;
+			sourceTree = "<group>";
+		};
+		3E9009F52B1BA20B0040F671 /* Answers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Answers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
