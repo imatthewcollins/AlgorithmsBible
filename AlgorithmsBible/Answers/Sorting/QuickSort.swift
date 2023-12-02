@@ -49,7 +49,7 @@ class QuickSort {
                 let mid = data[data.count / 2]
                 let end = data[data.count - 1]
                 
-                let pivot = first + mid + end - min(first, min(mid, end)) - max(first, max(mid, end))
+                pivot = first + mid + end - min(first, min(mid, end)) - max(first, max(mid, end))
             }
             
             var left = [Int]()
